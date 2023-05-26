@@ -5,7 +5,7 @@ typedef struct n_listnode
     double n_value;
     struct n_listnode *next;
 } n_listnode;
-n_listnode *n_list_createnode(double value) // Singly_listnode
+n_listnode *n_list_createnode(double value)
 {
     n_listnode *p;
     p = malloc(sizeof(n_listnode));
