@@ -1,6 +1,6 @@
 #include "score.h"
-#define RESET "\033[0m" /* White */
-#define RED "\033[31m"  /* Red */
+#define RESET "\033[0m" 
+#define RED "\033[31m"  
 void priority(n_stack *num, c_stack *ops)
 {
     if (ops->size != 0)
