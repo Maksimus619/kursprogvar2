@@ -6,7 +6,7 @@ typedef struct c_listnode
     struct c_listnode *next;
 } c_listnode;
 
-c_listnode *c_list_createnode(char value) // Singly_listnode
+c_listnode *c_list_createnode(char value) 
 {
     c_listnode *p;
     p = malloc(sizeof(c_listnode));
